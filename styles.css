@@ -1,0 +1,50 @@
+*{
+    margin: 5px;
+}
+
+.text{
+    margin: 120px;
+    position: absolute;
+    display: block;
+}
+
+#body{
+    text-align: center;
+}
+
+.banner{
+    background-image: url(chrollo.png);
+    height: 185px;
+    width: 2000px;
+    position: relative;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.navbar{
+    display: block;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#left{
+    float: left;
+    display: inline;
+}
+
+#right{
+    float: right;
+    display: inline;
+}
+
+#box{
+    justify-content: center;
+    position: relative;
+    padding-bottom: 40px;
+    display: table;
+    display: inline-block;
+    left: 50vh;
+}
